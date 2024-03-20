@@ -10,7 +10,8 @@ This project, "server_performance_comparison," aims to compare the performance o
 
 ## JMeter
 [JMeter](https://jmeter.apache.org/) is an Apache project that can be used as a load testing tool for analyzing and measuring the performance of servers. In this project, JMeter was utilized to simulate the load on each server type by sending 1 million requests.
-![JMeter](Screenshots/JMeter.png "JMeter")
+
+JMeter:![JMeter](Screenshots/JMeter.png)
 
 ## Performance Comparison
 - Throughput measurements were conducted for all three types of servers.
@@ -19,19 +20,21 @@ This project, "server_performance_comparison," aims to compare the performance o
 
 - All servers were configured with a timeout of 10 seconds for handling requests.
 
-![Single Threaded](Screenshots/SingleThread/SingleThreaded_Graph.png "Single Threaded Server")
-![Multi Threaded](Screenshots/MultiThreaded/MultiThreaded_Graph.png "Multi Threaded Server")
-![ThreadPool](Screenshots/ThreadPool/ThreadPool_Graph.png "Thread Pool")
+Single Threaded Server:![Single Threaded](Screenshots/SingleThread/SingleThreaded_Graph.png)
+Multi Threaded Server:![Multi Threaded](Screenshots/MultiThreaded/MultiThreaded_Graph.png)
+Thread Pool:![ThreadPool](Screenshots/ThreadPool/ThreadPool_Graph.png)
 
 ## Components
 The project consists of the following components:
 - **Server Classes**: Separate classes are implemented for each type of server, namely SingleThreadedServer, MultiThreadedServer, and ThreadPoolServer.
-![SingleThreadedServer](Screenshots/ServerCode/SingleThreaded_Server.png "Single Threaded Server")
-![MultiThreadedServer](Screenshots/ServerCode/MulitThreaded_Server.png "Multi Threaded Server")
-![ThreadPool](Screenshots/ServerCode/ThreadPool_Server.png "Thread Pool")
+
+Single Threaded Server:![SingleThreadedServer](Screenshots/ServerCode/SingleThreaded_Server.png)
+Multi Threaded Server:![MultiThreadedServer](Screenshots/ServerCode/MulitThreaded_Server.png)
+Thread Pool:![ThreadPool](Screenshots/ServerCode/ThreadPool_Server.png)
 
 - **Client Classes**: Corresponding client classes are created for each type of server to simulate the sending of requests, namely SingleThreadedClient, MultiThreadedClient, and ThreadPoolClient.
-![ThreadPool](Screenshots/ServerCode/MutliThreadedClient.png "MultiThreaded Client")
+
+MultiThreaded Client:![ThreadPool](Screenshots/ServerCode/MutliThreadedClient.png)
 
 ## Usage
 1. **Clone the Repository:**
