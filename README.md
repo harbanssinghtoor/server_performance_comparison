@@ -64,7 +64,7 @@ The project consists of the following components:
 
 9. Configure JMeter to send requests to the server implementations under test.
 
-10. Execute the [JMeter](##JMeter) test plan.
+10. Execute the [JMeter](https://github.com/harbanssinghtoor/server_performance_comparison?tab=readme-ov-file#jmeter) test plan.
 
 11. Analyze the graphical and tabular representations provided by JMeter to understand the transaction of requests and identify any performance bottlenecks.
 
